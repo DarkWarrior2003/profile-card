@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Mooli&family=Noto+Sans:wght@100&family=Poppins:wght@300&family=Work+Sans&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +17,7 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 100%;
 }
 
@@ -27,8 +31,9 @@ body {
   left: 15px;
   cursor: pointer;
 }
-.customSlider + label:before, .customSlider + label:after {
-  background: #FFFFFF;
+.customSlider + label:before,
+.customSlider + label:after {
+  background: #ffffff;
   position: absolute;
   content: "";
 }
@@ -59,31 +64,31 @@ body {
 .customSlider:checked ~ .wrapper {
   color: #fff;
   transition: background 0.6s ease;
-  background: #31394D;
+  background: #31394d;
 }
 .customSlider:checked ~ .wrapper .top-icons i {
   color: #fff;
 }
 .customSlider:checked ~ .wrapper .profile .name {
-  color: #FDFEFF;
+  color: #fdfeff;
 }
 .customSlider:checked ~ .wrapper .profile .title {
-  color: #7C8097;
+  color: #7c8097;
 }
 .customSlider:checked ~ .wrapper .profile .description {
-  color: #FDFEFF;
+  color: #fdfeff;
 }
 .customSlider:checked ~ .wrapper .icon h4 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .customSlider:checked ~ .wrapper .icon p {
-  color: #666B7D;
+  color: #666b7d;
 }
 
 .wrapper {
   width: 320px;
   height: 500px;
-  background: #FDFEFF;
+  background: #fdfeff;
   transition: background 0.6s ease;
   border-radius: 10px;
   padding: 20px 20px 20px 20px;
@@ -112,7 +117,7 @@ body {
   content: " ";
   display: block;
   margin-top: 1.3em;
-  background: #E9EFF6;
+  background: #e9eff6;
 }
 .wrapper .profile .check {
   position: absolute;
@@ -127,7 +132,7 @@ body {
   line-height: 20px;
   text-align: center;
   border-radius: 100%;
-  background: linear-gradient(to bottom right, #C90A6D, #FF48A0);
+  background: linear-gradient(to bottom right, #c90a6d, #ff48a0);
 }
 .wrapper .profile .thumbnail {
   width: 124px;
@@ -140,13 +145,13 @@ body {
   box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 .wrapper .profile .name {
-  color: #2D354A;
+  color: #2d354a;
   font-size: 24px;
   font-weight: 600;
   text-align: center;
 }
 .wrapper .profile .title {
-  color: #7C8097;
+  color: #7c8097;
   font-size: 0.75em;
   font-weight: 300;
   text-align: center;
@@ -159,6 +164,11 @@ body {
   color: #1c1e30;
   font-size: 12px;
   font-weight: 300;
+  font-family: "Mooli", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+
   text-align: center;
   margin-bottom: 1.3em;
 }
@@ -175,7 +185,7 @@ body {
   margin-right: auto;
   border-radius: 70px;
   box-shadow: 0 13px 26px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16);
-  background: linear-gradient(to bottom right, #C90A6D, #FF48A0);
+  background: linear-gradient(to bottom right, #c90a6d, #ff48a0);
 }
 .wrapper .social-icons {
   display: flex;
@@ -198,13 +208,13 @@ body {
   box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 .wrapper .social-icons .icon:nth-of-type(1) a {
-  background: linear-gradient(to bottom right, #C90A6D, #FF48A0);
+  background: linear-gradient(to bottom right, #c90a6d, #ff48a0);
 }
 .wrapper .social-icons .icon:nth-of-type(2) a {
-  background: linear-gradient(to bottom right, #5E5AEC, #3F9EFC);
+  background: linear-gradient(to bottom right, #5e5aec, #3f9efc);
 }
 .wrapper .social-icons .icon:nth-of-type(3) a {
-  background: linear-gradient(to bottom right, #6452E9, #639FF9);
+  background: linear-gradient(to bottom right, #6452e9, #639ff9);
 }
 .wrapper .social-icons .icon h4 {
   color: #080911;
@@ -213,14 +223,14 @@ body {
   margin-bottom: 0.2em;
 }
 .wrapper .social-icons .icon p {
-  color: #666B7D;
+  color: #666b7d;
   font-size: 12px;
 }
 
 .concept {
   position: absolute;
   bottom: 25px;
-  color: #AAB0C4;
+  color: #aab0c4;
   font-size: 0.9em;
   font-weight: 400;
 }
